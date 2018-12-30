@@ -2,5 +2,5 @@ from django.conf.urls import url, include
 from . import views
 
 urlpatterns = [
-    url(r'^get/', views.get_message),
+    url(r'^', views.message),
     ]
